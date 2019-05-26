@@ -155,7 +155,7 @@
 
 1. On the function app blade, click the **Platform features** tab at the top of the blade.
 
-1. On the **Platform features** tab, click the **Application Settings** link in the **GENERAL SETTINGS** section.
+1. On the **Platform features** tab, click the **Configuration** link in the **GENERAL SETTINGS** section.
 
 1. On the **Application settings** tab, locate the **Application Settings** section. Click the **Add new setting** link and perform the following tasks:
 
@@ -177,7 +177,7 @@
 
 1. On the **Deployment Center** blade that appears, click the **External** button and then click **Continue**.
 
-1. Click **App Service Kudu build server** and click **Continue**. 
+1. Click **App Service build server** and click **Continue**. 
 
 1. Once the **Code** section is displayed, perform the following tasks
 
@@ -275,7 +275,7 @@
     }
     ```
 
-1. Replace the default JSON template with the following template that includes an HTTP trigger (**\\allfiles\\AZ-301T01\\Module_01\\LabFiles\\Starter\\logic-app.json**):
+1. Replace the default JSON template with the following template that includes an HTTP trigger (**\\allfiles\\AZ-301T01\\Module_01\\LabFiles\\Starter\\logic-app.json**), and then click **Save**:
 
     ```
     {
@@ -328,6 +328,8 @@
 
     - In the **Request Body** text box, type **@triggerBody()**.
 
+    - In the **Add new parameter** drop-down list, select the **Method** option.
+    
     - In the **Method** drop-down list, select the **POST** option.
 
 1. Click the **+ New Step** button in the designer. Click the **Add an action** button to open the dialog for creating an action.
