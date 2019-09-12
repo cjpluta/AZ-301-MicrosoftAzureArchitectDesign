@@ -4,9 +4,6 @@
   "parameters": {
     "spClientId": {
       "type": "string",
-      "metadata": {
-        "description": "Service Principal Client ID used by Jenkins and Azure Container Service (AKS)."
-      }
     },
     "spClientSecret": {
       "type": "securestring",
