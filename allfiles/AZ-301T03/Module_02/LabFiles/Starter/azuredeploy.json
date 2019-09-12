@@ -7,15 +7,9 @@
     },
     "spClientSecret": {
       "type": "securestring",
-      "metadata": {
-        "description": "Service Principal Client Secret used by Jenkins and Azure Container Service(AKS)."
-      }
     },
     "linuxAdminUsername": {
       "type": "string",
-      "metadata": {
-        "description": "User name for the Linux VMs (Jenkins and Kubernetes)."
-      }
     },
     "linuxAdminPassword": {
       "type": "securestring",
