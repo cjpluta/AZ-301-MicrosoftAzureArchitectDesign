@@ -3,16 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "spClientId": {
-      "type": "string",
-      "metadata": {
-        "description": "Service Principal Client ID used by Jenkins and Azure Container Service (AKS)."
-      }
+      "type": "string"
     },
     "spClientSecret": {
-      "type": "securestring",
-      "metadata": {
-        "description": "Service Principal Client Secret used by Jenkins and Azure Container Service(AKS)."
-      }
+      "type": "securestring"
     },
     "linuxAdminUsername": {
       "type": "string",
